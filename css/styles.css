@@ -100,3 +100,12 @@ outline: 1px solid black;
   background-size: contain;
 }
 
+.icon-clock {
+  width: 70px; 
+  height: 70px;
+  fill: red;
+}
+
+.icon-clock:hover {
+  fill: #2196f3;
+}
