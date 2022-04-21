@@ -1,46 +1,35 @@
 :root {
+  --main-text-color: #003654;
+  --secondary-text-color: rgba(0, 0, 0, 0.37);
+  --link-text-color: #00679A;
+  --main-background-colr: #ffffff;
 }
 
 body {
 margin: 0;
 min-height: 100vh;
-display: flex;
-flex-direction: column;
 align-items: center;
 justify-content: center;
 background-color: #f9f9fd;
-}
-.icon {
-  margin-left: 12px;
-  margin-right: 12px;
-  border: 2px dashed #2a2a2a;
-  border-radius: 8px;
-  fill: #2a2a2a;
-  fill-opacity: 0.7;
-  stroke: #f44336;
-  stroke-width: 3px;
+font-family: 'Rubik', sans-serif;
 }
 
-.icon:hover {
-  fill: #03a9f4;
-}
 
-ul {
-  padding: 0;
+ul,
+li,
+link,
+a,
+ol {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
 h2,
 h3,
 h4,
-p,
-ul,
-ol {
+p {
   margin: 0;
 }
 
@@ -55,57 +44,146 @@ img {
 }
 
 .container {
-width: 1200px;
+width: 1140px;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-outline: 1px solid black;
+outline: 2px solid tomato;
 }
 
-/* Тренировки */
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: teal;
-  color: #ffffff;
-  border-radius: 3px;
-  text-decoration: none;
-  cursor: pointer;
+/* Header */
+.page-header {
 }
-.button:hover, .button:focus {
-  background-color: blueviolet;
-}
+.page-header {}
 
-/* .button > .icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  background-color: red;
-  background-repeat: no-repeat;
-  background-image: url(../images/mail-icon-hover.svg);
-  background-size: contain;
-} */
+.main-nav {}
 
-.button::before {
-  width: 20px;
-  height: 20px;
-  margin-right: 20px;
-  content: "";
-  /* background-color: red; */
-  background-repeat: no-repeat;
-  background-image: url(../images/mail-icon-hover.svg);
-  background-size: contain;
+.logo {}
+
+.link {}
+
+.button {}
+
+.button-search {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 30px;
+  line-height: 1.21;
+  text-align: center;
+  color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-background-colr);
+  box-sizing: border-box;
+  border-radius: 9px;
 }
 
-.icon-clock {
-  width: 70px; 
-  height: 70px;
-  fill: red;
+.name-user {}
+
+.header-banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 62px;
 }
 
-.icon-clock:hover {
-  fill: #2196f3;
+.category-list {}
+
+.category-item {}
+
+.category-title {}
+
+.category-link {}
+
+.main-desc {}
+
+.main-title-desc {}
+
+.main-text-desc {}
+
+.main-subtitle-desc {}
+
+.main-subtitle-heading {}
+
+.regions-poland {}
+
+.regions-poland-list {}
+
+.regions-poland-item {}
+
+.hidden {}
+
+.footer-banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 117px;
+  margin-bottom: 109px;
 }
+
+.new-ads {}
+
+.new-ads-title {}
+
+.new-ads-list {}
+
+.new-ads-item {}
+
+.new-ads-link {}
+
+.new-ads-text {}
+
+.popular-city {}
+
+.popular-city-title {}
+
+.popular-city-list {}
+
+.popular-city-item {}
+
+.popular-city-link {}
+
+.popular-keywords {}
+
+.popular-keywords-title {}
+
+.popular-keywords-list {}
+
+.popular-keywords-item {}
+
+.popular-keywords-link {}
+
+.popular-shops {}
+
+.popular-shops-title {}
+
+.popular-shops-list {}
+
+.popular-shops-item {}
+
+.popular-shops-link {}
+
+.shop-count-ads {}
+
+.shop-name {}
+
+.footer {}
+
+.footer-menu {}
+
+.footer-menu-list {}
+
+.footer-menu-item {}
+
+.footer-menu-link {}
+
+.footer-social {}
+
+.footer-social-list {}
+
+.footer-social-item {}
+
+.footer-social-link {}
+
+.copyright {}
+
+.text-copyright {}
