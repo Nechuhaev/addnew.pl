@@ -31,7 +31,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p
+{
   margin: 0;
 }
 
@@ -97,7 +98,7 @@ outline: 2px solid tomato;
 
 
 .button-submit-ads {
-  padding: 16px 12.49px 15px 40.51px;
+  padding: 16px 12.49px 16px 40.51px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
@@ -146,23 +147,87 @@ outline: 2px solid tomato;
   color: var(--link-text-color);
 }
 
-.main-desc {}
+.main-desc {
+  margin-top: 59px;
+}
 
-.main-title-desc {}
+.main-title-desc {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130.5%;
+  color: var(--main-text-color);
+}
 
-.main-text-desc {}
+.main-text-desc {
+  margin-top: 27px;
+  margin-bottom: 13px;
+  margin-left: 90px;
+  margin-right: 90px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.23;
+  text-align: justify;
+  color: var(--secondary-text-color);
+}
 
-.main-subtitle-desc {}
+.main-subtitle-desc {
+  margin-top: 27px;
+  margin-bottom: 13px;
+  margin-left: 90px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 130.5%;
+  color: var(--main-text-color);
+}
 
-.main-subtitle-heading {}
+.main-subtitle-heading {
+  margin-top: 27px;
+  margin-bottom: 13px;
+  margin-left: 90px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 122.5%;
+  color: var(--main-text-color);
+}
 
-.regions-poland {}
+.regions-poland-title {
+  margin-top: 27px;
+  margin-bottom: 13px;
+  margin-left: 90px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 122.5%;
+  text-align: justify;
+  color: #003654;
+}
 
 .regions-poland-list {}
 
-.regions-poland-item {}
+.regions-poland-item {
+  margin-left: 90px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: justify;
+  color: var(--link-text-color);
+  text-decoration: none;
+}
 
-.hidden {}
+.button-hidden {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 45px;
+  margin-left: 90px;
+  padding: 16px 29px;
+  line-height: 1.21;
+  text-align: center;
+  color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-background-colr);
+  box-sizing: border-box;
+  border-radius: 9px;
+  cursor: pointer;
+}
 
 .footer-banner {
   margin-left: auto;
@@ -173,7 +238,13 @@ outline: 2px solid tomato;
 
 .new-ads {}
 
-.new-ads-title {}
+.new-ads-title {
+  margin-bottom: 89px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130.5%;
+  color: var(--main-text-color);
+}
 
 .new-ads-list {}
 
@@ -185,7 +256,13 @@ outline: 2px solid tomato;
 
 .popular-city {}
 
-.popular-city-title {}
+.popular-city-title {
+  margin-bottom: 54px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130.5%;
+  color: var(--main-text-color);
+}
 
 .popular-city-list {}
 
@@ -195,7 +272,13 @@ outline: 2px solid tomato;
 
 .popular-keywords {}
 
-.popular-keywords-title {}
+.popular-keywords-title {
+  margin-bottom: 58px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130.5%;
+  color: var(--main-text-color);
+}
 
 .popular-keywords-list {}
 
@@ -205,7 +288,13 @@ outline: 2px solid tomato;
 
 .popular-shops {}
 
-.popular-shops-title {}
+.popular-shops-title {
+  margin-bottom: 70px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130.5%;
+  color: var(--main-text-color);
+}
 
 .popular-shops-list {}
 
@@ -217,6 +306,21 @@ outline: 2px solid tomato;
 
 .shop-name {}
 
+.button-shops {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 45px;
+  padding: 16px 29px;
+  line-height: 1.21;
+  text-align: center;
+  color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-background-colr);
+  box-sizing: border-box;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
 .footer {}
 
 .footer-menu {}
@@ -226,6 +330,20 @@ outline: 2px solid tomato;
 .footer-menu-item {}
 
 .footer-menu-link {}
+
+.button-subscription {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 16px 29px;
+  line-height: 1.21;
+  text-align: center;
+  color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-background-colr);
+  box-sizing: border-box;
+  border-radius: 9px;
+  cursor: pointer;
+}
 
 .footer-social {}
 
