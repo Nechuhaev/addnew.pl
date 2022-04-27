@@ -201,7 +201,10 @@ outline: 2px solid tomato;
   color: #003654;
 }
 
-.regions-poland-list {}
+.regions-poland-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .regions-poland-item {
   margin-left: 90px;
@@ -246,15 +249,42 @@ outline: 2px solid tomato;
   color: var(--main-text-color);
 }
 
-.new-ads-list {}
+.new-ads-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    
+}
 
-.new-ads-item {}
+.new-ads-item {
+flex-basis: calc(100% / 4-30px);
+margin-left: 30px;
+margin-bottom: 11px;
+}
 
-.new-ads-link {}
+.new-ads-link {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
 
-.new-ads-text {}
+.new-ads-link-text {
 
-.popular-city {}
+}
+
+.new-ads-text {
+  margin-left: 11px;
+  width: 180px;
+  height: 74px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130.5%;
+  color: var(--secondary-text-color);
+}
+
+.popular-city {
+  margin-top: 88px;
+}
 
 .popular-city-title {
   margin-bottom: 54px;
@@ -264,13 +294,36 @@ outline: 2px solid tomato;
   color: var(--main-text-color);
 }
 
-.popular-city-list {}
+.popular-city-list {
+  display: flex;
+}
 
 .popular-city-item {}
 
-.popular-city-link {}
+.popular-city-link {
+  position: relative;
+  margin-right: 42px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--link-text-color);
+}
 
-.popular-keywords {}
+.popular-city-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: -21px;
+  width: 1px;
+  height: 100%;
+  background-color: var(--link-text-color);
+}
+
+.popular-keywords {
+  margin-top: 88px;
+}
 
 .popular-keywords-title {
   margin-bottom: 58px;
@@ -286,7 +339,9 @@ outline: 2px solid tomato;
 
 .popular-keywords-link {}
 
-.popular-shops {}
+.popular-shops {
+    margin-top: 88px;
+}
 
 .popular-shops-title {
   margin-bottom: 70px;
