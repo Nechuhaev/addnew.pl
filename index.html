@@ -11,19 +11,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-    <header class="page-header">
-      <div class="container">
+    <header class="page-header container">
+      
         <nav class="main-nav">
           <a href="" class="logo link"><img src="./images/logo-addnew-pl.svg" width="171.44" height="24.46" alt=" Addnew Poland Logo"> </a>
-          <a href=""><button type="button" class="button-search">Поиск</button></a>
+          <form name="form-search" autocomplete="on" novalidate class="form-search">
+            <label for="">
+              <input type="text" name="" class="form-search-input" placeholder="Что ищем?">
+            </label>
+            <a href=""><button type="button" class="button-search">Поиск</button></a>
+          </form>
+          <div class="registration">
           <a href="" class="name-user">Гость!</a>
-          <ul>
+          <ul class="registration-item">
             <li><a href="" class="registration-link">Регистрация</a></li>
             <li><a href="" class="enter-link">Вход</a></li>
-           <a href=""><button type="button" class="button-submit-ads">+ Подать объявление</button></a>
           </ul>
+          </div>
+          
+          
+          <a href=""><button type="button" class="button-submit-ads">
+            <svg class="icon-plus" width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-plus"></use>
+            </svg>
+            Подать объявление</button></a>
         </nav>
-      </div>
+      
     </header>
     <section class="container">
       <img class="header-banner" src="./images/banner-970-90.svg" alt="Баннер в шапке">
