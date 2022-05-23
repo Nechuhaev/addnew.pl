@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-    <header class="page-header container">
+  <!-- Header -->
+    <header class="page-header container-no-margin">
       
         <nav class="main-nav">
           <a href="" class="logo link"><img src="./images/logo-addnew-pl.svg" width="171.44" height="24.46" alt=" Addnew Poland Logo"> </a>
@@ -22,14 +23,12 @@
             <a href=""><button type="button" class="button-search">Поиск</button></a>
           </form>
           <div class="registration">
-          <a href="" class="name-user">Гость!</a>
-          <ul class="registration-item">
-            <li><a href="" class="registration-link">Регистрация</a></li>
-            <li><a href="" class="enter-link">Вход</a></li>
-          </ul>
+                <a href="" class="name-user">Гость!</a>
+                <ul class="registration-item">
+                  <li><a href="" class="registration-link">Регистрация</a></li>
+                  <li><a href="" class="enter-link">Вход</a></li>
+                </ul>
           </div>
-          
-          
           <a href=""><button type="button" class="button-submit-ads">
             <svg class="icon-plus" width="16" height="16">
               <use href="./images/symbol-defs.svg#icon-plus"></use>
@@ -38,11 +37,13 @@
         </nav>
       
     </header>
+    <!-- Header banner -->
     <section class="container">
       <img class="header-banner" src="./images/banner-970-90.svg" alt="Баннер в шапке">
     </section>
-    <main>
-      <section class="container">
+  <main>
+    <!-- Category list -->
+    <section class="container-no-margin">
         <ul class="category-list">
           <li class="category-item">
             <a href="" class="category-title-link"><h2 class="category-title">Транспорт</h2></a>
@@ -60,10 +61,12 @@
           <li><a href="" class="subcategory-link">Воздушный транспорт</a></li>
           <li><a href="" class="subcategory-link">Шины и диски</a></li>
         </ul>
-      </section>
-      <section class="container main-desc">
+    </section>
+    <!-- Main description -->
+    <section class="container main-desc">
         <h1 class="main-title-desc">Доска бесплатных объявлений</h1>
-        <p class="main-text-desc">
+        <div class="main-desk-tab">
+<p class="main-text-desc">
           Онлайн доска бесплатных объявлений Addnew.pl в Украине - это охват пользователей всей Украины и тысяч городов по всем
           странам мира. Миллионы посетителей и покупателей недвижимости, автомобилей, электроники, продуктов питания, животных и
           различных услуг. Доска объявлений Украина Addnew.pl – это частные бесплатные объявления новых и б/у товаров по доступным
@@ -106,26 +109,30 @@
         </p>
         <h3 class="regions-poland-title">Регионы Poland доски бесплатных объявлений Addnew.pl без регистрации, без платежей:</h3>
         <ul class="regions-poland-list">
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
-          <li><a href="" class="regions-poland-item">Poznan</a></li>
+          <li><a href="" class="regions-poland-item">Варминьско-Мазурское</a></li>
+          <li><a href="" class="regions-poland-item">Великопольское</a></li>
+          <li><a href="" class="regions-poland-item">Западно-Поморское</a></li>
+          <li><a href="" class="regions-poland-item">Куявско-Поморское</a></li>
+          <li><a href="" class="regions-poland-item">Лодзинское</a></li>
+          <li><a href="" class="regions-poland-item">Люблинское</a></li>
+          <li><a href="" class="regions-poland-item">Любуское</a></li>
+          <li><a href="" class="regions-poland-item">Мазовецкое</a></li>
+          <li><a href="" class="regions-poland-item">Малопольское</a></li>
+          <li><a href="" class="regions-poland-item">Нижнесилезское</a></li>
+          <li><a href="" class="regions-poland-item">Подкарпатское</a></li>
+          <li><a href="" class="regions-poland-item">Подляское</a></li>
+          <li><a href="" class="regions-poland-item">Поморское</a></li>
+          <li><a href="" class="regions-poland-item">Свентокшиское</a></li>
+          <li><a href="" class="regions-poland-item">Силезское</a></li>
         </ul>
-          <button type="button" class="button-hidden">Скрыть</button>
-  </section>
-  <section class="container">
-    <img class="footer-banner" src="./images/banner-1050-300.svg" alt="Баннер Футер">
-  </section>
+        </div>
+          <button type="button" class="button button-desc">Скрыть</button>
+    </section>
+    <!-- Footer banner -->
+    <section class="container-no-margin">
+      <img class="footer-banner" src="./images/banner-1050-300.svg" alt="Баннер Футер">
+    </section>
+    <!-- New Ads -->
   <section class="container new-ads">
     <h2 class="new-ads-title">Последние объявления</h2>
     <ul class="new-ads-list">
@@ -291,7 +298,8 @@
       </li>
     </ul>
   </section>
-  <section class="container popular-city">
+  <!-- Popular City -->
+  <section class="container-no-margin popular-city">
     <h2 class="popular-city-title">Популярные города</h2>
     <ul class="popular-city-list">
       <li class="popular-city-item">
@@ -323,58 +331,187 @@
       </li>
     </ul>
   </section>
+  <!-- Keywords -->
   <section class="container popular-keywords">
     <h2 class="popular-keywords-title">Популярные запросы</h2>
     <ul class="popular-keywords-list">
       <li class="popular-keywords-item">
-        <a href="" class="popular-keywords-link">keywords</a></li>
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">Популярные запросы</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">Популярные запросы</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">Популярные запросы</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">Популярные запросы</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">Популярные запросы</a>
+      </li>
+      <li class="popular-keywords-item">
+        <a href="" class="popular-keywords-link">keywords</a>
+      </li>
     </ul>
   </section>
-  <section class="container popular-shops">
+  <!-- Shops -->
+  <section class="container-no-margin popular-shops">
     <h2 class="popular-shops-title">Популярные магазины</h2>
     <ul class="popular-shops-list">
       <li class="popular-shops-item">
         <a href="" class="popular-shops-link"> 
-        <img src="./images/default-ads-shop.png" width="130" alt="">
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
+        <h3 class="shop-count-ads">8961 предложений</h3>
+        <p class="shop-name">Академия рыбалки</p>
+        </a>
+      </li>
+      <li class="popular-shops-item">
+        <a href="" class="popular-shops-link"> 
+        <img class="popular-shops-img" src="./images/default-ads-shop.png" alt="">
         <h3 class="shop-count-ads">8961 предложений</h3>
         <p class="shop-name">Академия рыбалки</p>
         </a>
       </li>
     </ul>
-    <a href=""> <button type="button" class="button-shops">Перейти к списку всех магазинов</button></a>
+    <a href=""><button type="button" class="button button-shops">Перейти к списку всех магазинов</button></a>
   </section>
     </main>
-  <div class="container footer">
-        <div class="footer-menu">
-            <ul class="footer-menu-list">
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Главная</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Блог</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Регионы</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Контакты</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Пользовательское соглашение</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Магазинам</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">О сайте</a></li>
-              <li class="footer-menu-item"><a href="" class="footer-menu-link">Запрещенные товары</a></li>
-            </ul>
-        </div>
-        <div>
-      <a href=""> <button type="button" class="button-subscription">Подписаться</button></a>
-        </div>
-        <div class="footer-social">
-          <ul class="footer-social-list">
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
-          </ul>
-        </div>
-        <section class="copyright">
-          <p class="text-copyright">©2011-2022 Доска объявлений Addnew.pl Все права защищены</p>
-        </section>
-</div>
+    <!-- Footer -->
+    <section class="container">
+        <div class="footer">
+              <div class="footer-menu">
+                  <ul class="footer-menu-list">
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Главная</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Блог</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Регионы</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Контакты</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Пользовательское соглашение</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Магазинам</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">О сайте</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-link">Запрещенные товары</a></li>
+                  </ul>
+              </div>
+              <div class="footer-social">
+                <ul class="footer-social-list">
+                  <li class="footer-social-item"><a href="" class="footer-social-link">
+                        <svg class="soc-icon" width="23" height="23">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                  </a></li>
+                  <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
+                  <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
+                  <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
+                  <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
+                  <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
+                  <li class="footer-social-item"><a href="" class="footer-social-link"></a></li>
+                </ul>
+              </div>
+              <div class="copyright">
+                <p class="text-copyright">©2011-2022 Доска объявлений Addnew.pl Все права защищены</p>
+              </div>
+               <div>
+            <a href=""> <button type="button" class="button button-subscription">Подписаться</button></a>
+              </div>
+          </div>
+    </section>
     </footer>
   </body>
 </html>

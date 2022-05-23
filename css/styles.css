@@ -46,9 +46,22 @@ a {
   width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
+}
+
+.container-no-margin {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 2px solid tomato; */
 }
 
 /* Header */
@@ -99,10 +112,9 @@ a {
 }
 
 .button-search {
-  width: 103px;
-  height: 36px;
   font-weight: 500;
   font-size: 14px;
+  padding: 10px 30px;
   line-height: 1.21;
   text-align: center;
   color: var(--main-text-color);
@@ -111,6 +123,11 @@ a {
   box-sizing: border-box;
   border-radius: 9px;
   cursor: pointer;
+}
+
+.button-search:hover,
+.button-search:focus {
+  box-shadow: 0px 4px 10px rgba(0, 54, 84, 0.4);
 }
 
 /* Блок регистрации в хедере */
@@ -164,8 +181,6 @@ a {
 .header-banner {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 62px;
 }
 
 .category-list {
@@ -202,7 +217,6 @@ a {
 }
 
 .main-desc {
-  margin-top: 59px;
 }
 
 .main-title-desc {
@@ -211,12 +225,15 @@ a {
   line-height: 130.5%;
   color: var(--main-text-color);
 }
+.main-desk-tab {
+  width: 920px;
+  margin-left: 90px;
+  margin-bottom: 45px;
+}
 
 .main-text-desc {
   margin-top: 27px;
   margin-bottom: 13px;
-  margin-left: 90px;
-  margin-right: 90px;
   font-weight: 400;
   font-size: 13px;
   line-height: 1.23;
@@ -227,7 +244,6 @@ a {
 .main-subtitle-desc {
   margin-top: 27px;
   margin-bottom: 13px;
-  margin-left: 90px;
   font-weight: 600;
   font-size: 21px;
   line-height: 130.5%;
@@ -237,7 +253,6 @@ a {
 .main-subtitle-heading {
   margin-top: 27px;
   margin-bottom: 13px;
-  margin-left: 90px;
   font-weight: 600;
   font-size: 13px;
   line-height: 122.5%;
@@ -247,7 +262,6 @@ a {
 .regions-poland-title {
   margin-top: 27px;
   margin-bottom: 13px;
-  margin-left: 90px;
   font-weight: 600;
   font-size: 13px;
   line-height: 122.5%;
@@ -261,20 +275,20 @@ a {
 }
 
 .regions-poland-item {
-  margin-left: 90px;
   font-weight: 400;
   font-size: 13px;
-  line-height: 140%;
-  text-align: justify;
+  line-height: 1.4;
+  padding-right: 10px;
   color: var(--link-text-color);
   text-decoration: none;
 }
 
-.button-hidden {
+.button-desc {
+}
+
+.button {
   font-weight: 500;
   font-size: 14px;
-  margin-top: 45px;
-  margin-left: 90px;
   padding: 16px 29px;
   line-height: 1.21;
   text-align: center;
@@ -289,29 +303,17 @@ a {
 .footer-banner {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 117px;
-  margin-bottom: 109px;
-}
-
-.new-ads {
-}
-
-.new-ads-title {
-  margin-bottom: 89px;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 130.5%;
-  color: var(--main-text-color);
 }
 
 .new-ads-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 36px;
   margin-left: -30px;
 }
 
 .new-ads-item {
-  flex-basis: calc(100% / 4-30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-bottom: 11px;
 }
@@ -335,139 +337,168 @@ a {
   color: var(--secondary-text-color);
 }
 
-.popular-city {
-  margin-top: 88px;
-}
-
-.popular-city-title {
-  margin-bottom: 54px;
+.popular-city-title,
+.popular-keywords-title,
+.popular-shops-title,
+.new-ads-title {
   font-weight: 500;
   font-size: 30px;
-  line-height: 130.5%;
+  line-height: 1.3;
   color: var(--main-text-color);
+}
+
+.popular-city-title::after,
+.popular-keywords-title::after,
+.popular-shops-title::after,
+.new-ads-title::after,
+.main-title-desc::after {
+  content: '';
+  display: block;
+  margin-top: 19px;
+  height: 0;
+  width: 65px;
+  border: 2px solid var(--link-text-color);
 }
 
 .popular-city-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
 }
 
 .popular-city-item {
+  padding-top: 0;
+  padding-right: 21px;
+  padding-left: 21px;
+  border-right: 1px solid var(--link-text-color);
+}
+
+.popular-city-item:first-child {
+  padding-left: 0;
+}
+.popular-city-item:last-child {
+  border: none;
 }
 
 .popular-city-link {
-  position: relative;
-  margin-right: 42px;
+  padding-top: 0;
   font-weight: 400;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 1.23;
   color: var(--link-text-color);
 }
 
-.popular-city-link::after {
-  content: '';
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin-right: -21px;
-  width: 1px;
-  height: 100%;
-  background-color: var(--link-text-color);
-}
-
-.popular-keywords {
-  margin-top: 88px;
-}
-
-.popular-keywords-title {
-  margin-bottom: 58px;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 130.5%;
-  color: var(--main-text-color);
-}
-
 .popular-keywords-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
 }
 
 .popular-keywords-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  height: 18px;
+  background-color: rgba(0, 66, 105, 0.07);
+  border-radius: 4px;
 }
 
 .popular-keywords-link {
-}
-
-.popular-shops {
-  margin-top: 88px;
-}
-
-.popular-shops-title {
-  margin-bottom: 70px;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 130.5%;
-  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: #828282;
 }
 
 .popular-shops-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  margin-left: -30px;
+  margin-bottom: -20px;
 }
 
 .popular-shops-item {
+  display: block;
+  width: 160px;
+  height: 213px;
+  padding: 15px;
+  background: #f6f8f7;
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.popular-shops-img {
+  width: 100%;
 }
 
 .popular-shops-link {
 }
 
+.button-shops {
+  margin-top: 45px;
+}
+
 .shop-count-ads {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: center;
+  padding-top: 22px;
+  color: #003654;
 }
 
 .shop-name {
-}
-
-.button-shops {
-  font-weight: 500;
-  font-size: 14px;
-  margin-top: 45px;
-  padding: 16px 29px;
-  line-height: 1.21;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.3;
   text-align: center;
-  color: var(--main-text-color);
-  border: 2px solid var(--main-text-color);
-  background-color: var(--main-background-colr);
-  box-sizing: border-box;
-  border-radius: 9px;
-  cursor: pointer;
+  padding-top: 6px;
+  color: #394149;
 }
 
 .footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer-menu {
 }
 
 .footer-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  margin-right: 0;
 }
 
 .footer-menu-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-menu-item:first-child {
+  padding-left: 0;
+}
+
+.footer-menu-item:last-child {
+  border: none;
 }
 
 .footer-menu-link {
-}
-
-.button-subscription {
+  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  padding: 16px 29px;
-  line-height: 1.21;
-  text-align: center;
+  font-size: 13px;
+  line-height: 1.15;
   color: var(--main-text-color);
-  border: 2px solid var(--main-text-color);
-  background-color: var(--main-background-colr);
-  box-sizing: border-box;
-  border-radius: 9px;
-  cursor: pointer;
 }
 
 .footer-social {
+  margin: 22px 0 15px;
 }
 
 .footer-social-list {
@@ -483,4 +514,7 @@ a {
 }
 
 .text-copyright {
+}
+
+.button-subscription {
 }
