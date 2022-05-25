@@ -85,8 +85,11 @@ a {
 
 /* Header */
 .page-header {
+  position: sticky;
+  top: 0;
   padding-top: 13px;
   padding-bottom: 14px;
+  background-color: var(--main-background-colr);
 }
 
 .main-nav {
@@ -198,6 +201,7 @@ a {
 }
 
 .header-banner {
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
