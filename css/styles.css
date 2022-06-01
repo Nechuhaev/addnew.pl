@@ -98,12 +98,6 @@ a {
   align-items: center;
 }
 
-.logo {
-}
-
-.link {
-}
-
 /* Форма поиска */
 .form-search {
   display: flex;
@@ -227,9 +221,6 @@ a {
   /* outline: 1px solid tomato; */
 }
 
-.category-item {
-}
-
 .category-title {
   display: flex;
   align-items: center;
@@ -239,9 +230,6 @@ a {
   font-size: 21px;
   line-height: 130.5%;
   color: var(--main-text-color);
-}
-
-.category-title-link {
 }
 
 .category-title__icon {
@@ -262,9 +250,6 @@ a {
   line-height: 130.5%;
   text-decoration-line: underline;
   color: var(--link-text-color);
-}
-
-.main-desc {
 }
 
 .main-title-desc {
@@ -331,9 +316,6 @@ a {
   text-decoration: none;
 }
 
-.button-desc {
-}
-
 .footer-banner {
   margin-left: auto;
   margin-right: auto;
@@ -358,9 +340,6 @@ a {
   align-items: center;
   padding: 0;
   margin: 0;
-}
-
-.new-ads-link-text {
 }
 
 .new-ads-text {
@@ -472,9 +451,6 @@ a {
   width: 100%;
 }
 
-.popular-shops-link {
-}
-
 .button-shops {
   margin-top: 45px;
 }
@@ -500,9 +476,6 @@ a {
 .footer {
   position: relative;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.footer-menu {
 }
 
 .footer-menu-list {
@@ -547,9 +520,6 @@ a {
 
 .footer-social-item {
   margin-right: 22px;
-}
-
-.footer-social-link {
 }
 
 .text-copyright {
