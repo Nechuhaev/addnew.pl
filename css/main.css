@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+:root {
+  --main-text-color: #003654;
+  --secondary-text-color: rgba(0, 0, 0, 0.37);
+  --link-text-color: #00679a;
+  --main-background-colr: #ffffff;
+  --main-button-text-color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
